@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend da aplicação de gerador e envio de senha para clientes. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JJBrito"
+  },
+  "author": "José Junior",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "expresse": "^1.0.2"
+  }
+}

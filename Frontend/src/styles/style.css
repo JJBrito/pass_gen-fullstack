@@ -1,0 +1,176 @@
+/* Estilos comuns para todos os tamanhos de tela */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: x-large;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ade8f4;
+}
+
+.container {
+    background-color: #056497;
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+    padding: 2em;
+    box-shadow: 0 1px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display__nome,
+.display__e-mail {
+    width: 100%; 
+    max-width: 600px; 
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #020202;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.display__nome::placeholder,
+.display__e-mail::placeholder {
+    font-family: 'Poppins';
+    font-size: medium;
+    color: #1863b4;
+}
+
+.display__stickerNome,
+.display__stickerEmail {
+    width: 6vw; 
+    height: 5vh;
+    width: 50px;
+    height: 42px;
+    padding: 5px 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.display__stickerNome{
+    position: absolute;
+    top: 9.4em;
+    right: 23.6em;
+}
+
+.display__stickerEmail {
+    position: absolute;
+    top: 12em;
+    right: 23.6em;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__lenght,
+.form__checkboxes {
+    margin-top: 15px;
+}
+
+.form__lenght_number {
+    width: 50px;
+    height: 30px;
+    font-size: medium;
+}
+
+.form__lenght_label,
+.form__checkboxes_label {
+    color: #ffffff;
+    font-size: medium;
+}
+
+#btnGerar {
+    position: relative;
+    left: 110px;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #1863b4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#btnGerar:hover {
+    background-color: #48cae4;  
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Estilos específicos para tablets */
+    
+    .container {
+        width: 40vw;
+    }
+
+    .display__stickerNome{
+        position: absolute;
+        top: 31.4vh; 
+        right: 32.5vw; 
+    }
+    
+    .display__stickerEmail {
+        position: absolute;
+        top: 38.8vh; 
+        right: 32.5vw; 
+    }
+
+    #btnGerar {
+        position: relative;
+        left: 9.5vh;
+    }
+}
+
+/* Estilos específicos para dispositivos de tela pequena (smartphones) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90vw;
+    }
+
+    .display__stickerNome{
+        position: absolute;
+        top: 27.2vh; 
+        left: 75vw; 
+    }
+    
+    .display__stickerEmail {
+        position: absolute;
+        top: 37vh; 
+        left: 75vw; 
+    }
+
+    #btnGerar {
+        position: relative;
+        left: 16.5vh;
+    }
+}
