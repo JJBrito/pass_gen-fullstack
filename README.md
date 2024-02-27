@@ -62,12 +62,11 @@ O frontend do projeto é uma página HTML simples que permite ao usuário fornec
 - `index.js`: Arquivo JavaScript que lida com a interação do usuário e envia os dados para o backend.
 - `style.css`: Arquivo CSS que estiliza a página HTML.
 
+#### Notas importantes
+Este arquivo README.md fornece uma visão geral do projeto, detalhes sobre a arquitetura, modo de instalação e funcionamento, além de incluir o script SQL para criação da tabela de usuários. Certifique-se de substituir `seu-usuario/seu-repositorio` pelo seu nome de usuário e nome do repositório no GitHub.
+
 ## Modo de instalação e funcionamento
 
 1. Clone este repositório para o seu ambiente local:
-
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-
-
-Este arquivo README.md fornece uma visão geral do projeto, detalhes sobre a arquitetura, modo de instalação e funcionamento, além de incluir o script SQL para criação da tabela de usuários. Certifique-se de substituir `seu-usuario/seu-repositorio` pelo seu nome de usuário e nome do repositório no GitHub.
